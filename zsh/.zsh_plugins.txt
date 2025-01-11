@@ -1,0 +1,19 @@
+romkatv/powerlevel10k
+
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-syntax-highlighting
+zdharma/fast-syntax-highlighting
+#marlonrichert/zsh-autocomplete
+
+getantidote/use-omz
+ohmyzsh/ohmyzsh path:lib
+ohmyzsh/ohmyzsh path:plugins/extract
+
+ohmyzsh/ohmyzsh path:plugins/fzf
+unixorn/fzf-zsh-plugin
+
+z-shell/zsh-eza
+
+ohmyzsh/ohmyzsh path:plugins/zoxide
+
+ohmyzsh/ohmyzsh path:plugins/procs
