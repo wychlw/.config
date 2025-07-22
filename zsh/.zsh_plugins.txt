@@ -8,12 +8,13 @@ zdharma/fast-syntax-highlighting
 getantidote/use-omz
 ohmyzsh/ohmyzsh path:lib
 ohmyzsh/ohmyzsh path:plugins/extract
+ohmyzsh/ohmyzsh path:plugins/asdf
 
 ohmyzsh/ohmyzsh path:plugins/fzf
 unixorn/fzf-zsh-plugin
 
 z-shell/zsh-eza
-
 ohmyzsh/ohmyzsh path:plugins/zoxide
-
 ohmyzsh/ohmyzsh path:plugins/procs
+
+rkh/zsh-jj

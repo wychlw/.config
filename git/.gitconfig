@@ -1,0 +1,22 @@
+[user]
+	email = lingwang@wcysite.com
+	name = Ling Wang
+    signingkey = 022F532C4840BF58
+[sendemail]
+    smtpServer = smtp.zoho.com
+    smtpServerPort = 465
+    smtpEncryption = ssl
+    smtpUser = lingwang@wcysite.com
+[credential]
+    helper = libsecret
+[core]
+	editor = nvim
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[color]
+    ui = auto
+[alias]
+    graph = log --all --graph --decorate --oneline

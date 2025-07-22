@@ -22,4 +22,11 @@ antidote load ${ZDOTDIR:-$HOME}/.zsh_plugins.txt
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
-. /opt/asdf-vm/asdf.sh
+export RUSTUP_UPDATE_ROOT=https://mirrors.tuna.tsinghua.edu.cn/rustup/rustup
+export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
+
+export PATH=$HOME/.local/bin/:$PATH
+
+eval $(thefuck --alias)
+
+export GIT_CONFIG_GLOBAL=$HOME/.config/git/.gitconfig
